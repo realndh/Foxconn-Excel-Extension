@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage
+                dependsOn=""
+                description=""
+                haCompatible="false"
+                minimumThingWorxVersion="9.3.0"
+                name="ExcelExtension"
+                packageVersion="1.0.0"
+                vendor="ptc korea">
+            <JarResources>
+                <FileResource
+                        description=""
+                        file="excelextension.jar"
+                        type="JAR"></FileResource>
+                <FileResource
+                        description=""
+                        file="poi-5.2.2.jar"
+                        type="JAR"></FileResource>
+                <FileResource
+                        description=""
+                        file="poi-ooxml-5.2.2.jar"
+                        type="JAR"></FileResource>
+                <FileResource
+                        description=""
+                        file="poi-ooxml-full-5.2.2.jar"
+                        type="JAR"></FileResource>
+                <FileResource
+                        description=""
+                        file="xmlbeans-5.0.3.jar"
+                        type="JAR"></FileResource>
+                <FileResource
+                        description=""
+                        file="log4j-api-2.17.2.jar"
+                        type="JAR"></FileResource>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <Resources>
+        <Resource
+                aspect.isCreatable="false"
+                aspect.isEditableExtensionObject="true"
+                className="com.foxconn.ExcelResources"
+                description=""
+                name="ExcelResources"></Resource>
+    </Resources>
+</Entities>
